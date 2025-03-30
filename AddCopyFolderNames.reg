@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\Directory\shell\Copy folder names]
+"Icon"="shell32.dll,4"
+[HKEY_CLASSES_ROOT\Directory\shell\Copy folder names\command]
+@="wscript.exe \"C:\\Scripts\\CopyFolderName\\RunHidden.vbs\" \"%V\""
